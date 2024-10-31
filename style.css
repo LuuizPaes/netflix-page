@@ -101,11 +101,23 @@ video {
     margin-bottom: 10px;
 }
 
+
 .botao-som {
     border: none;
     border-radius: 5px;
     position: absolute;
     top: 80px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+.botao-mudo {
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 110px;
     right: 10px;
     cursor: pointer;
 }
