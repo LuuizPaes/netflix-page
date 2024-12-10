@@ -142,3 +142,143 @@ video {
     color: #fff;
 
 }
+
+@media (max-width: 760px) {
+    .capa {
+        position: absolute;
+        top: 30%;
+        left: 15px;
+        width: auto;
+        height: auto;
+    }
+    
+    .capa-titulo {
+        font-size: 50px;
+        margin-bottom: 5px 0;
+        font-weight: bold;
+    }
+    
+    .capa-info {
+        width: auto;
+        margin: 10px 0;
+        font-weight: bold;
+    }
+    
+    .capa-descricao {
+        font-size: 15px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    #carouselExampleControls {
+        width: auto;
+        bottom: 0px;
+        left: 20px;
+    }
+    
+    .titulo-carrossel {
+        font-size: 28px;
+        margin-bottom: 10px 0;
+    }
+
+    .carousel-inner {
+        position: relative;
+        bottom: 0;
+        left: 5px;
+        width: 100%;
+    }
+
+    .carousel-item {
+        width: 100vw;
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding-top: 0px;
+    
+    }
+
+    .img-topo {
+        height: 30px;
+        margin-top: 28px;
+    }
+
+    ul {
+        height: 20px;
+        width: 100%;
+    }
+
+    .capa {
+        top: 35%;
+        left: 15px;
+        width: auto;
+        height: auto;
+    }
+
+    .capa-titulo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .capa-info {
+        width: auto;
+        margin: 5px 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .link-assistir {
+        padding: 8px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    
+    }
+    
+    .link-info {
+        padding: 8px 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    #carouselExampleControls {
+        position: absolute;
+        width: auto;
+        top: 70%;
+        left: 10px;
+    }
+
+    .titulo-carrossel {
+        font-size: 23px;
+        
+    }
+
+    .carousel-inner {
+        position: relative;
+        bottom: 0;
+        left: 5px;
+        width: 100%;
+    }
+
+    .carousel-item {
+        width: auto;
+        height: 100px;
+    }
+    
+    .botao-som {
+        top: 130px;
+        right: 10px;
+        cursor: pointer;
+    }
+    
+    
+    .botao-mudo {
+        top: 155px;
+        right: 10px;
+        width: 22px;
+        cursor: pointer;
+    }
+}
+
